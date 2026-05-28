@@ -11,6 +11,10 @@ import Blog from "./components/Blog";
 import Team from "./components/Team";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import DashboardCard from "./components/DashboardCard";
+import UserProfile from "./components/UserProfile";
+import NotificationPanel from "./components/NotificationPanel";
+
 
 function App() {
   return (
