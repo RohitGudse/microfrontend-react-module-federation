@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.analytics-wrapper,
+.team-container,
+.notification-wrapper {
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.analytics-card,
+.notification-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.analytics-value {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.growth {
+  color: green;
+}
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.team-table th,
+.team-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.team-table th {
+  background: #222;
+  color: white;
+}
