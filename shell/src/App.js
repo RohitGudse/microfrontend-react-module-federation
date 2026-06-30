@@ -32,6 +32,7 @@ function App() {
       <FAQ />
       <Contact />
       <Footer />
+      <DashboardCard />
     </div>
   );
 }
